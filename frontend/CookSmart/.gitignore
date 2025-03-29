@@ -5,6 +5,7 @@ node_modules/
 
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
@@ -19,6 +20,7 @@ expo-env.d.ts
 
 # Metro
 .metro-health-check*
+metro-cache/
 
 # debug
 npm-debug.*
@@ -30,9 +32,28 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
+
+# VS Code
+.vscode/
 
 # typescript
 *.tsbuildinfo
 
+# Testing coverage
+coverage/
+
+# Example files
 app-example
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
